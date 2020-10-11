@@ -3,7 +3,7 @@ import { CommonModule } from "@angular/common";
 import { MsalService } from "./msal.service";
 import { MsalGuard } from "./msal-guard.service";
 import { BroadcastService } from "./broadcast.service";
-import { Configuration } from "msal";
+import { Configuration } from "@azure/msal-browser";
 import { MsalAngularConfiguration, defaultMsalAngularConfiguration } from "./msal-angular.configuration";
 import { MSAL_CONFIG, MSAL_CONFIG_ANGULAR } from "./constants";
 

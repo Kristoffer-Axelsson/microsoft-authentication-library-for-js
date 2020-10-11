@@ -7,7 +7,7 @@ import {
 import { MsalService } from "./msal.service";
 import { Location, PlatformLocation } from "@angular/common";
 import { BroadcastService } from "./broadcast.service";
-import { Configuration, AuthError, InteractionRequiredAuthError, UrlUtils, WindowUtils } from "msal";
+import { Configuration, AuthError, InteractionRequiredAuthError, UrlUtils, WindowUtils } from "@azure/msal-browser";
 import { MsalAngularConfiguration } from "./msal-angular.configuration";
 import { MSAL_CONFIG, MSAL_CONFIG_ANGULAR } from "./constants";
 

@@ -9,7 +9,7 @@ import {
     errorReceivedCallback,
     tokenReceivedCallback,
     UrlUtils
-} from "msal";
+} from "@azure/msal-browser";
 import { Router } from "@angular/router";
 import {BroadcastService} from "./broadcast.service";
 import { MSALError } from "./MSALError";
