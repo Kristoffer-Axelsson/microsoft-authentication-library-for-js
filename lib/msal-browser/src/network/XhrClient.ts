@@ -107,3 +107,8 @@ export class XhrClient implements INetworkModule {
         return headerDict;
     }
 }
+
+export type XhrResponse = {
+    body: any,
+    statusCode: number
+};

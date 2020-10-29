@@ -44,6 +44,10 @@ export class PublicClientApplication extends ClientApplication implements IPubli
         super(configuration);
     }
 
+    authority(authority: string): void {
+        throw new Error('Method not implemented.');
+    }
+
     /**
      * Use when initiating the login process by redirecting the user's browser to the authorization endpoint. This function redirects the page, so
      * any code that follows this function will not execute.
@@ -99,4 +103,7 @@ export class PublicClientApplication extends ClientApplication implements IPubli
             }
         }
     }
+
+    
+
 }
